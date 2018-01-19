@@ -9,11 +9,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link href="<c:url value="/resources/css/layui.css" />" rel="stylesheet" type="text/css">
-<link href="<c:url value="/resources/css/semantic.min.css" />" rel="stylesheet" type="text/css">
 <link href="<c:url value="/resources/css/animate.css" />" rel="stylesheet" type="text/css">
+<link href="<c:url value="/resources/css/semantic.min.css" />" rel="stylesheet" type="text/css">
 <link href="<c:url value="/resources/css/mystyle.css" />" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css" >
-<title>產品分類 : ${stockCategory} - FADI</title>
+<title>搜尋結果 - FADI</title>
+
 </head>
 <body class="layui-layout-body  animated fadeIn" id="layuiContainer">
     <div class="layui-layout layui-layout-admin">
@@ -51,8 +52,9 @@
             <!-- 内容主体区域 -->
             <div style="padding: 15px;">
                 <fieldset class="layui-elem-field layui-field-title animated slideInDown" style="margin-top: 20px;">
-                    <legend>產品分類 : ${stockCategory}</legend>
+                    <legend>搜尋結果</legend>
                 </fieldset>
+
 		        <form:form id="form" modelAttribute="stocks" class="layui-form">
 		            <table class="frame ui table animated fadeInUp">
 		                <thead>
@@ -108,18 +110,5 @@
         </div>
     </div>
     <script src="<c:url value=" /resources/js/layui.js " />"></script>
-    <script>
-        //JavaScript代码区域
-        layui.use('element', function () {
-            var element = layui.element;
-
-        });
-        function doDeletion() {
-            return confirm("確定刪除嗎 ?");
-        }
-        function goBack() {
-        	window.history.back();
-        }
-    </script>
 </body>
 </html>

@@ -13,9 +13,8 @@
 <link href="<c:url value="/resources/css/animate.css" />" rel="stylesheet" type="text/css">
 <link href="<c:url value="/resources/css/mystyle.css" />" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css" >
-<title>產品分類 : ${stockCategory} - FADI</title>
-</head>
-<body class="layui-layout-body  animated fadeIn" id="layuiContainer">
+<title>所有商品總覽 - FADI</title>
+<body class="layui-layout-body animated fadeIn" id="layuiContainer">
     <div class="layui-layout layui-layout-admin">
         <div class="layui-header">
             <div class="layui-logo"><a href="${pageContext.request.contextPath}/welcome">FADI - 存貨管理</a></div>
@@ -42,17 +41,20 @@
                     <li class="layui-nav-item layui-nav-itemed">
                         <a class="" href="${pageContext.request.contextPath}/create">新增商品</a>
                     </li>
+
                 </ul>
             </div>
         </div>
-
-
-        <div class="layui-body">
-            <!-- 内容主体区域 -->
-            <div style="padding: 15px;">
-                <fieldset class="layui-elem-field layui-field-title animated slideInDown" style="margin-top: 20px;">
-                    <legend>產品分類 : ${stockCategory}</legend>
-                </fieldset>
+		  
+		  
+		<div class="layui-body">
+		    <!-- 内容主体区域 -->
+		    <div style="padding: 15px;">
+		
+		        <fieldset class="layui-elem-field layui-field-title animated slideInDown" style="margin-top: 20px;">
+		            <legend>所有商品總覽</legend>
+		        </fieldset>
+		
 		        <form:form id="form" modelAttribute="stocks" class="layui-form">
 		            <table class="frame ui table animated fadeInUp">
 		                <thead>
@@ -99,8 +101,8 @@
 		                </tbody>
 		            </table>
 		        </form:form>
-            </div>
-        </div>
+		    </div>
+		</div>
 
         <div class="layui-footer">
             <!-- 底部固定区域 -->
@@ -109,17 +111,13 @@
     </div>
     <script src="<c:url value=" /resources/js/layui.js " />"></script>
     <script>
-        //JavaScript代码区域
-        layui.use('element', function () {
-            var element = layui.element;
-
-        });
-        function doDeletion() {
-            return confirm("確定刪除嗎 ?");
-        }
-        function goBack() {
-        	window.history.back();
-        }
+    function doDeletion() {
+    	return confirm("確定刪除嗎?");
+    }
+    function goBack() {
+    	window.history.back();
+    }
     </script>
 </body>
+</head>
 </html>

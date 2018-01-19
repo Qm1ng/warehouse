@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/MySQL/Connector.J 5.1/mysql-connector-java-5.1.39-bin.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0"/>
+	<classpathentry kind="lib" path="C:/Users/ming/Desktop/eclipse-jee-oxygen-2-win32-x86_64/eclipse/plugins/org.apache.commons.logging_1.1.1.v201101211721.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ming/Downloads/jakarta-taglibs-standard-1.1.2/lib/jstl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ming/Downloads/jakarta-taglibs-standard-1.1.2/lib/standard.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/ming/Downloads/spring-framework-4.1.1.RELEASE/libs/spring-aop-4.1.1.RELEASE.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
@@ -351,51 +375,30 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/ming/Downloads/aopalliance-1.0.jar">
+	<classpathentry kind="lib" path="C:/Users/ming/Desktop/軟體/aopalliance-1.0.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/ming/Downloads/aspectjweaver-1.7.0.jar">
+	<classpathentry kind="lib" path="C:/Users/ming/Desktop/軟體/aspectjweaver-1.7.0.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/ming/Downloads/mysql-connector-java-5.1.39.jar">
+	<classpathentry kind="lib" path="C:/Users/ming/Desktop/eclipse-jee-oxygen-2-win32-x86_64/eclipse/plugins/javax.persistence_2.1.0.v201304241213.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/ming/Downloads/jakarta-taglibs-standard-1.1.2/lib/jstl.jar">
+	<classpathentry kind="lib" path="C:/Users/ming/Desktop/eclipse-jee-oxygen-2-win32-x86_64/eclipse/plugins/javax.servlet.jsp_2.2.0.v201112011158.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/ming/Downloads/jakarta-taglibs-standard-1.1.2/lib/standard.jar">
+	<classpathentry kind="lib" path="C:/Users/ming/Desktop/eclipse-jee-oxygen-2-win32-x86_64/eclipse/plugins/javax.servlet_3.1.0.v201410161800.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/ming/Desktop/eclipse/plugins/org.apache.commons.logging_1.1.1.v201101211721.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/ming/Desktop/eclipse/plugins/javax.persistence_2.1.0.v201304241213.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/ming/Desktop/eclipse/plugins/javax.servlet.jsp_2.2.0.v201112011158.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/ming/Desktop/eclipse/plugins/javax.servlet_3.1.0.v201410161800.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

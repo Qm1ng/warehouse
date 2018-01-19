@@ -13,7 +13,7 @@
 <link href="<c:url value="/resources/css/animate.css" />" rel="stylesheet" type="text/css">
 <link href="<c:url value="/resources/css/mystyle.css" />" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css" >
-<title>產品分類 : ${stockCategory} - FADI</title>
+<title>Review Section : ${stockSection} - FADI</title>
 </head>
 <body class="layui-layout-body  animated fadeIn" id="layuiContainer">
     <div class="layui-layout layui-layout-admin">
@@ -51,10 +51,10 @@
             <!-- 内容主体区域 -->
             <div style="padding: 15px;">
                 <fieldset class="layui-elem-field layui-field-title animated slideInDown" style="margin-top: 20px;">
-                    <legend>產品分類 : ${stockCategory}</legend>
+                    <legend>產品所屬部門 : ${stockSection}</legend>
                 </fieldset>
 		        <form:form id="form" modelAttribute="stocks" class="layui-form">
-		            <table class="frame ui table animated fadeInUp">
+		            <table class="frame ui table  animated fadeInUp">
 		                <thead>
 		                    <tr>
 		                        <th>產品編號</th>
