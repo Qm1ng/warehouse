@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+
+
+
+.layui-logo{
+
+	width: 100% !important ;
+	font-size: 20px;
+
+}
+
+.layui-logo a{
+
+	color: #fff;
+	
+}
+
+
+.layui-form-label {
+	width: auto !important ;
+	display: inline;
+	float: none ; 
+}
+
+.layui-input-inline {
+    width: 100% !important ;
+}
+
+
+.layui-form-item .layui-input-inline {
+    width: 100% !important ;
+}
+
+.layui-input {
+   width: auto !important; 
+   display: inline !important;
+}
+
+
+.layui-input-inline {
+    display: inline !important;
+}
+
+.layui-form-item .layui-input-inline {
+    float: none ; 
+}
+
+
+.layui-form-item {
+    text-align: center;
+}
+
+
+.myform {
+
+	text-align: center;
+}
+
+
+
+.layui-elem-field legend {
+    margin-left: none;
+    text-align: center;
+}

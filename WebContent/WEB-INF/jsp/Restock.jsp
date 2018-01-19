@@ -131,10 +131,10 @@
         }
         
         function check() {
-       		console.log(stockNum.value)
-       		console.log(saleNum.value)
-       		console.log('before')
-       		parseInt(stockNum.value) += parseInt(saleNum.value);
+			let stock = parseInt(stockNum.value)
+			let sale = parseInt(saleNum.value)
+       		stock += sale ;
+			stockNum.value = stock;
        		console.log(stockNum.value)
        		console.log(saleNum.value)
        		return true;

@@ -55,7 +55,7 @@
                     <legend>新增商品</legend>
                 </fieldset>
                 <div  class="animated fadeInUp">
-                <form:form name="form" modelAttribute="stock" action="${pageContext.request.contextPath}/create" method="post">
+                <form:form class="myform" name="form" modelAttribute="stock" action="${pageContext.request.contextPath}/create" method="post">
                     <form:input type="hidden" name="stockId" path="stockId" />
 
                     <div class="layui-form-item">

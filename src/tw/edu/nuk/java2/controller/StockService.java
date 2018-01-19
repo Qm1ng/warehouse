@@ -51,12 +51,13 @@ public class StockService {
 	
 	@RequestMapping(value="/restock", method=RequestMethod.POST)
 	@Transactional
-	public String doRestock(@ModelAttribute(value="stock") Stock stock,Model model) {
+	public String doRestock(@ModelAttribute(value="stock") Stock stock,
+								Model model) {
 		stockDao.saveOrUpdate(stock);
 		model.addAttribute("stockId", stock.getStockId());
 		model.addAttribute("stockNum", stock.getStockNum());
 		model.addAttribute("stockCategory", stock.getStockCategory());
-		return "redierct:search";
+		return "redierct:restock";
 	}
 	
 	@RequestMapping(value="/sales", method=RequestMethod.GET)
